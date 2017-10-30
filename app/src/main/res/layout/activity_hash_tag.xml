@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="instatag.com.smarthashtag.HashTag"
+    android:background="@drawable/hashlist">
+    
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dialog"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#INSTAGRAM"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="90dp"
+        android:textSize="23sp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:background="#375393"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:textIsSelectable="true"
+        android:inputType="textMultiLine"
+        android:textSize="21sp"
+        android:textColor="#000"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btncopy"
+        android:layout_marginTop="20dp"
+
+
+
+        android:textStyle="bold|italic"
+      android:text="COPY|PASTE UNDER YOUR POST"
+        android:textSize="23sp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:background="#375393"
+        />
+
+
+</LinearLayout>

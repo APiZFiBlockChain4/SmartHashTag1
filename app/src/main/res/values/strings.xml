@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">SmartHashTag</string>
+    <!--Contact Form-->
+
+    <string name="contact_form">Contact Us</string>
+    <string name="contact_form_name">Your Name</string>
+    <string name="contact_form_email">Your Email</string>
+    <string name="contact_form_subject">Subject</string>
+    <string name="contact_form_message">Message</string>
+    <string name="contact_form_button">Send Message</string>
+    <string name="contact_form_post_message">Please wait! We\'re sending your message to the support department...</string>
+    <string name="contact_posted">Your message has been successfully delivered.</string>
+    <string-array name="array_HashTag">
+        <item>All Tags</item>
+        <item>Most-Popular1</item>
+        <item>Most-Popular2</item>
+        <item>Most-Popular3</item>
+        <item>SelfieQueen</item>
+        <item>Groupie</item>
+        <item>Girls gorgeous</item>
+        <item>Boys Hunk</item>
+        <item>MakeUp</item>
+        <item>Outfit Of The Day</item>
+        <item>Jewelry</item>
+        <item>Nails</item>
+        <item>High Heels</item>
+        <item>Fashion (Female)</item>
+        <item>Fashion (Male)</item>
+
+
+        <item>Nature</item>
+        <item>Weather</item>
+        <item>All_Seasons</item>
+        <item>Animals_Lover</item>
+        <item>SocialLife</item>
+        <item>People</item>
+        <item>Holidays</item>
+        <item>Celebration</item>
+        <item>Family_Time</item>
+        <item>Art_Lover</item>
+        <item>Photoholic</item>
+        <item>FoodLover</item>
+        <item>Celeb</item>
+        <item>Entertainment</item>
+        <item>Follow/Shotout/Like/Comment</item>
+        <item>Travel/Active/Sports</item>
+        <item>Movies</item>
+        <item>Others</item>
+
+    </string-array>
+</resources>
